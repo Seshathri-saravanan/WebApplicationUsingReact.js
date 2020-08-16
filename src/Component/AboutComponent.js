@@ -20,7 +20,7 @@ function RenderLeader({leaders,isLoading,errMess}){
                 return(
                     <Media className="m-5">
                         <Media left top href="#" >
-                            <Media object src={baseUrl + leader.image} alt={leader.name} />
+                            <Media object src={leader.image} alt={leader.name} />
                             </Media>
                         <Media body className="ml-4">
                             <Media heading>
